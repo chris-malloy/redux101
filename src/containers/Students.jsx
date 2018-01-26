@@ -65,6 +65,6 @@ function mapDispatchToProps(dispatch){
 // export default connect(mapStatetoProps)(Students);
 
 // *************** EXPORT CONNECT WITH DISPATCH
-// when exporting connect, state always come sfirst,
-// when exporting conneted, action comes second
+// when exporting connect, state always come first,
+// when exporting connected, action comes second
 export default connect(mapStatetoProps,mapDispatchToProps)(Students)

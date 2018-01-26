@@ -1,4 +1,4 @@
-// master reducer,  does not manage state, container all pieces of state from child reducers
+// master reducer,  does not manage state, container for all pieces of state from child reducers
 import { combineReducers } from 'redux';
 // import reducers --> must provide at least one
 import StudentReducer from './StudentReducer';
